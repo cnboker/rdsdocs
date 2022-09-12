@@ -37,3 +37,33 @@
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.blockContent h2 {
+  border-left-style: solid;
+  border-left-width: 8px;
+  font-size: 2rem;
+  margin-top: 1.6rem;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+ .blockContent h2 {
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.gridBlock {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.gridBlock>:first-child {
+  margin: 0 12px;
+}
+
+ .blockContent {
+  flex: 1 1;
+}

@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Company from '@site/src/components/CompanyFeatures/company.js'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -30,10 +31,11 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="数字标牌应用解决方案 <head />">
+      description="数字标牌应用解决方案">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <Company />
       </main>
     </Layout>
   );
