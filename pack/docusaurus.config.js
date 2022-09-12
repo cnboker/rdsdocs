@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '树莓派数字标牌应用解决方案',
+  title: '数字标牌应用解决方案',
   tagline: '树莓派用户的选择',
   url: 'https://www.ioliz.com',
   baseUrl: '/',
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cnboker/ioliz',
               },
             ],
           },
@@ -95,7 +95,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ioliz.com, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 深圳市易晟信息技术有限公司. 
+        <a href="https://beian.miit.gov.cn">粤ICP备18034927号-1</a>`,
       },
       prism: {
         theme: lightCodeTheme,
