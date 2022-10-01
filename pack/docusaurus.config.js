@@ -98,7 +98,7 @@ async function createConfig() {
             },
           ],
           copyright: `Copyright © ${new Date().getFullYear()} ioliz.com <br/> 
-          <a target="_blank" href="http://www.miibeian.gov.cn/" class="scrollto">粤ICP备18034927号-1</a> &nbsp;
+          <a target="_blank" href="https://beian.miit.gov.cn" class="scrollto">粤ICP备18034927号-1</a> &nbsp;
           <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702004919"><img src="http://www.beian.gov.cn/img/ghs.png">粤公网安备 44030702004919号</a>`,
         },
         prism: {
