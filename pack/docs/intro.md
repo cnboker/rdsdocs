@@ -5,19 +5,17 @@ sidebar_position: 1
 # 简介
 
 
-RDS(Raspberry Digital Signage)Player是专门为Raspberry Pi 4设计的一款App，利用Raspberry Pi 4作为基板实现数字标牌的常见应用，RDS Player基于[WebOS OSE](https://www.webosose.org/)操作系统开发，实现图片，视频，时钟，天气，网页，pdf等播放功能.
+RDS(Raspberry Digital Signage)Player是专门为Raspberry Pi zero w, 2,3,4设计的一款App，利用Raspberry Pi 作为基板实现数字标牌的常见应用，RDS Player基于alpine操作系统开发，实现图片，视频，时钟，天气，网页，pdf等播放功能.
 
+## RDS Player 安装配置
 
-## webOS 启动画面
+下载RDS Player最新版本
 
-![Webos启动画面](/img/webosose-2_0-bootup-launcher.jpeg)
+## 将下载系统烧录到sd卡
 
-## 安装数字标牌播放器画面
+## 更新wifi无线网络信息
 
-第一次系统启动需要首先激活设备
+## 将sd卡插入设备,启动设备
 
-![](/img/IMG_1946.jpg)
+## 激活设备
 
-## 后台管理画面
-
-![](2022-03-18-20-17-53.png)
