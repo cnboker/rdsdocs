@@ -17,6 +17,10 @@ async function createConfig() {
     favicon: 'img/favicon.ico',
     organizationName: 'ioliz.com', // Usually your GitHub org/user name.
     projectName: 'rds', // Usually your repo name.
+    i18n: {
+      defaultLocale: 'en',
+      locales: ['en', 'zh'],
+    },
   
     presets: [
       [
@@ -45,6 +49,7 @@ async function createConfig() {
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         navbar: {
+         
           title: '首页',
           logo: {
             alt: 'RDS Logo',
@@ -62,6 +67,10 @@ async function createConfig() {
               href: 'http://app.ioliz.com',
               label: '登录系统',
               position: 'right',
+            },
+            {
+              type: 'localeDropdown',
+              position: 'right'
             },
           ],
         },

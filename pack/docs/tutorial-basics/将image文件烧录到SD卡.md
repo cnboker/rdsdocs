@@ -11,11 +11,8 @@ sidebar_position: 3
 * HDMI 线
 * 键盘鼠标(可选)
 
-## 制作WebOS启动盘
 
-* 下载WebOS OSE最新版本,最新版本 [下载](http://build.webos-ports.org/webosose/), 或者自己动手编译， 编译说明移步到这里[编译WebOS](./%E7%BC%96%E8%AF%91webos.md)
-
-* 将SD卡插入到主机
+* 将SD卡插入到电脑
 
 ### 下载烧录工具并安装
 
@@ -30,9 +27,9 @@ sidebar_position: 3
 
 ![](/img/2022-03-18-12-39-44.png)
 
-#### 选择wic扩展的image文件
+#### 选择image文件
 
-![](/img/2022-03-18-12-41-26.png)
+![](/img/image.png)
 
 
 #### 选择安装的目标SD存储卡
@@ -55,6 +52,7 @@ sidebar_position: 3
 
 [参数参考](http://wiki.sunfounder.cc/index.php?title=Adjust_Resolution_for_Raspberry_Pi)
 
+通过电脑打开SD卡里面的文件config.txt,添加以下内容
 ```bash
     #2560x1440(2k),60hz,16:8的屏幕
     hdmi_cvt 2560 1440 60 3 0 0 0
@@ -73,7 +71,7 @@ sidebar_position: 3
 
 ## 解决鼠标延迟问题
 
-打开烧录的SD卡更目录cmdline.txt文件， 添加下面代码进去
+SD卡打开文件cmdline.txt文件， 添加下面代码进去
 
 * 注意在同一行加入用空格隔开，不能换行
 
