@@ -3,8 +3,8 @@ sidebar_position: 1
 ---
 
 # 简介
+chinese
 
-english
 RDS(Raspberry Digital Signage)Player是专门为Raspberry Pi zero w, 2,3,4设计的一款App，利用Raspberry Pi 作为基板实现数字标牌的常见应用，RDS Player基于alpine操作系统开发，实现图片，视频，时钟，天气，网页，pdf等播放功能.
 
 ## RDS Player 安装配置

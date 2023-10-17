@@ -4,12 +4,10 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-
 async function createConfig() {
-  const mdxMermaid =  await import('mdx-mermaid');
+  const mdxMermaid = await import('mdx-mermaid');
   const config = {
-    title: '数字标牌应用解决方案',
-    tagline: '树莓派用户的选择',
+    title:'title',
     url: 'https://www.ioliz.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -19,9 +17,9 @@ async function createConfig() {
     projectName: 'rds', // Usually your repo name.
     i18n: {
       defaultLocale: 'en',
-      locales: ['en', 'zh'],
+      locales: ['en', 'zh-Hans'],
     },
-  
+
     presets: [
       [
         'classic',
@@ -44,13 +42,12 @@ async function createConfig() {
         }),
       ],
     ],
-  
+
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         navbar: {
-         
-          title: '首页',
+          title: 'Home',
           logo: {
             alt: 'RDS Logo',
             src: 'img/logo.svg',
@@ -60,12 +57,12 @@ async function createConfig() {
               type: 'doc',
               docId: 'intro',
               position: 'left',
-              label: '简介',
+              label: 'Intro',
             },
-            {to: '/blog', label: '博客', position: 'left'},
+            { to: '/blog', label: 'Blog', position: 'left' },
             {
               href: 'http://app.ioliz.com',
-              label: '登录系统',
+              label: 'Login',
               position: 'right',
             },
             {
@@ -81,13 +78,13 @@ async function createConfig() {
               title: 'Docs',
               items: [
                 {
-                  label: '简介',
+                  label: 'Intro',
                   to: '/docs/intro',
                 },
               ],
             },
             {
-              title: '社区',
+              title: 'Social',
               items: [
                 {
                   label: 'GitHub',
@@ -96,13 +93,13 @@ async function createConfig() {
               ],
             },
             {
-              title: '更多',
+              title: 'More',
               items: [
                 {
-                  label: '博客',
+                  label: 'Blog',
                   to: '/blog',
                 },
-              
+
               ],
             },
           ],

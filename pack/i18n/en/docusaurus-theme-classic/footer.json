@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.社区": {
+    "message": "社区",
+    "description": "The title of the footer links column with title=社区 in the footer"
+  },
+  "link.title.更多": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=更多 in the footer"
+  },
+  "link.item.label.简介": {
+    "message": "简介",
+    "description": "The label of footer link with label=简介 linking to /docs/intro"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/cnboker/ioliz"
+  },
+  "link.item.label.博客": {
+    "message": "博客",
+    "description": "The label of footer link with label=博客 linking to /blog"
+  },
+  "copyright": {
+    "message": "Copyright © 2023 ioliz.com <br/> \n          <a target=\"_blank\" href=\"https://beian.miit.gov.cn\" class=\"scrollto\">粤ICP备18034927号-1</a> &nbsp;\n          <a target=\"_blank\" href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702004919\"><img src=\"http://www.beian.gov.cn/img/ghs.png\">粤公网安备 44030702004919号</a>",
+    "description": "The footer copyright"
+  },
+  "link.title.Social": {
+    "message": "Social",
+    "description": "The title of the footer links column with title=Social in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Intro": {
+    "message": "Intro",
+    "description": "The label of footer link with label=Intro linking to /docs/intro"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  }
+}

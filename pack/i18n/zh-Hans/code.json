@@ -1,0 +1,14 @@
+{
+  "home.digital.app.solution": {
+    "message": "数字标牌应用解决方案",
+    "description": "The title in the navbar"
+  },
+  "home.choice.for.pi.user": {
+    "message": "树莓派用户的选择",
+    "description": "The title in the navbar"
+  },
+  "home.5m.intro": {
+    "message": "RDS 简介 - 5分钟 ",
+    "description": "The title in the navbar"
+  }
+}
