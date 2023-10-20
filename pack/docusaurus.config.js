@@ -7,13 +7,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 async function createConfig() {
   const mdxMermaid = await import('mdx-mermaid');
   const config = {
-    title:'title',
-    url: 'https://www.ioliz.com',
+    title:'Digital Signage Application Solutions',
+    url: 'https://www.dsliz.info',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    organizationName: 'ioliz.com', // Usually your GitHub org/user name.
+    organizationName: 'www.dsliz.info', // Usually your GitHub org/user name.
     projectName: 'rds', // Usually your repo name.
     i18n: {
       defaultLocale: 'en',
@@ -61,14 +61,14 @@ async function createConfig() {
             },
             { to: '/blog', label: 'Blog', position: 'left' },
             {
-              href: 'http://app.ioliz.com',
+              href: 'http://app.dsliz.info',
               label: 'Login',
               position: 'right',
             },
-            {
-              type: 'localeDropdown',
-              position: 'right'
-            },
+            // {
+            //   type: 'localeDropdown',
+            //   position: 'right'
+            // },
           ],
         },
         footer: {
@@ -103,9 +103,8 @@ async function createConfig() {
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} ioliz.com <br/> 
-          <a target="_blank" href="https://beian.miit.gov.cn" class="scrollto">粤ICP备18034927号-1</a> &nbsp;
-          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702004919"><img src="http://www.beian.gov.cn/img/ghs.png">粤公网安备 44030702004919号</a>`,
+          copyright: `Copyright © ${new Date().getFullYear()} www.dsliz.info <br/> `
+       
         },
         prism: {
           theme: lightCodeTheme,
