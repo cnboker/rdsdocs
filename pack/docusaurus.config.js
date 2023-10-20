@@ -12,7 +12,7 @@ async function createConfig() {
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/logo.png',
     organizationName: 'www.dsliz.info', // Usually your GitHub org/user name.
     projectName: 'rds', // Usually your repo name.
     i18n: {
@@ -50,14 +50,14 @@ async function createConfig() {
           title: 'Home',
           logo: {
             alt: 'RDS Logo',
-            src: 'img/logo.svg',
+            src: 'img/logo.png',
           },
           items: [
             {
               type: 'doc',
               docId: 'intro',
               position: 'left',
-              label: 'Intro',
+              label: 'Docs',
             },
             { to: '/blog', label: 'Blog', position: 'left' },
             {

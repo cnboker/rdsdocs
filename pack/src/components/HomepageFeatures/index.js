@@ -2,12 +2,12 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTruckFast,faPenToSquare,faLayerGroup,faCookieBite,faMagicWandSparkles, faUser} from '@fortawesome/free-solid-svg-icons'
+import { faTruckFast,faPenToSquare,faLayerGroup,faCookieBite,faMagicWandSparkles, faUser, faLaptop, faCode,faGrip} from '@fortawesome/free-solid-svg-icons'
 
 const FeatureList = [
   {
     title: 'Easy to use, no software installation required',
-    icon: <FontAwesomeIcon icon={faTruckFast}   size="3x" />,
+    icon: <FontAwesomeIcon icon={faLaptop}   size="3x" />,
     description: (
       <>
       Without any cumbersome software installation, you can easily access our service software from any PC or MAC computer at any time. Simple and convenient, it makes your digital signage production process smoother.
@@ -34,26 +34,17 @@ const FeatureList = [
   },
   {
     title: 'Diversified widgets make content more vivid',
-    icon: <FontAwesomeIcon icon={faCookieBite}   size="3x" />,
+    icon: <FontAwesomeIcon icon={faMagicWandSparkles}   size="3x" />,
     description: (
       <>
       You can easily add various widgets, from seamless video playback to picture list playback, to slideshows, weather, clock, news, and more. The content is no longer dull, but full of energy.
       </>
     ),
   },
-  {
-    title: 'Support interactive page publishing',
-    icon: <FontAwesomeIcon icon={faCookieBite}   size="3x" />,
-    src: require('@site/static/img/p3.png').default,
-    description: (
-      <>
-       Static websites, interactive websites, and H5-based application systems can all be published to the terminal with one click through the background file management function..
-      </>
-    ),
-  },
+ 
   {
     title: 'Modular design for easy expansion and maintenance',
-    icon: <FontAwesomeIcon icon={faMagicWandSparkles}   size="3x" />,
+    icon: <FontAwesomeIcon icon={faGrip}   size="3x" />,
     description: (
       <>
       Our software is modular in design, making the system easier to expand and maintain. Different functional modules are relatively independent to ensure high performance and high reliability of the system.
@@ -62,7 +53,7 @@ const FeatureList = [
   },
   {
     title: 'Support interactive page publishing to meet various needs',
-    icon: <FontAwesomeIcon icon={faMagicWandSparkles}   size="3x" />,
+    icon: <FontAwesomeIcon icon={faCode}   size="3x" />,
     description: (
       <>
       Whether it is a static website, an interactive website, or an H5-based application system, it can be published to the terminal with one click through the background file management function. More flexible and interactive.
