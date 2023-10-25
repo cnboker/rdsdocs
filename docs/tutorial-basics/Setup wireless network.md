@@ -13,7 +13,7 @@ network={
 }
 
 ap_scan=1
-autoscan=periodic:10
+autoscan=periodic:10-
 disable_scan_offload=1
 
 ```

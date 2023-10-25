@@ -24,7 +24,7 @@
     "description": "The label of footer link with label=博客 linking to /blog"
   },
   "copyright": {
-    "message": "Copyright © 2023 www.dsliz.info <br/> ",
+    "message": "Copyright © 2023 bingo <br/> ",
     "description": "The footer copyright"
   },
   "link.title.Social": {

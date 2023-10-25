@@ -21,8 +21,8 @@ sidebar_position: 2
 ## Clone
 
 ```bash
-git clone https://github.com/cnboker/alpine-raspberry-pi-dsclient/
-cd alpine-raspberry-pi-dsclient
+git clone https://github.com/cnboker/bingo-raspberry-pi
+cd bingo-raspberry-pi
 ```
 
 ## Compile image

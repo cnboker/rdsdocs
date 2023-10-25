@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 async function createConfig() {
   const mdxMermaid = await import('mdx-mermaid');
   const config = {
-    title:'Digital Signage Application Solutions',
+    title: 'OpenSource Digital Signage Software',
     url: 'https://www.dsliz.info',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -61,9 +61,14 @@ async function createConfig() {
             },
             { to: '/blog', label: 'Blog', position: 'left' },
             {
-              href: 'http://app.dsliz.info',
+              to: 'https://app.dsliz.info',
               label: 'Login',
               position: 'right',
+            },
+
+            {
+              href: 'https://github.com/cnboker/bingo-cloud',  position: 'right', className: "header-github-link",
+              "aria-label": "GitHub repository",
             },
             // {
             //   type: 'localeDropdown',
@@ -73,38 +78,38 @@ async function createConfig() {
         },
         footer: {
           style: 'dark',
-          links: [
-            {
-              title: 'Docs',
-              items: [
-                {
-                  label: 'Intro',
-                  to: '/docs/intro',
-                },
-              ],
-            },
-            {
-              title: 'Social',
-              items: [
-                {
-                  label: 'GitHub',
-                  href: 'https://github.com/cnboker/ioliz',
-                },
-              ],
-            },
-            {
-              title: 'More',
-              items: [
-                {
-                  label: 'Blog',
-                  to: '/blog',
-                },
+          // links: [
+          //   {
+          //     title: 'Docs',
+          //     items: [
+          //       {
+          //         label: 'Docs',
+          //         to: '/docs/intro',
+          //       },
+          //     ],
+          //   },
+          //   {
+          //     title: 'Source',
+          //     items: [
+          //       {
+          //         label: 'Cloud',
+          //         href: 'https://github.com/cnboker/bingo-cloud',
+          //       },
+          //     ],
+          //   },
+          //   {
+          //     title: 'More',
+          //     items: [
+          //       {
+          //         label: 'Blog',
+          //         to: '/blog',
+          //       },
 
-              ],
-            },
-          ],
-          copyright: `Copyright © ${new Date().getFullYear()} www.dsliz.info <br/> `
-       
+          //     ],
+          //   },
+          // ],
+          copyright: `Copyright © ${new Date().getFullYear()} Bingo #coobots@gmail.com<br/> `
+
         },
         prism: {
           theme: lightCodeTheme,

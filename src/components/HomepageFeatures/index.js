@@ -2,6 +2,12 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// The following import prevents a Font Awesome icon server-side rendering bug,
+// where the icons flash from a very large icon down to a properly sized one:
+import '@fortawesome/fontawesome-svg-core/styles.css';
+// Prevent fontawesome from adding its CSS since we did it manually above:
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; /* eslint-disable import/first */
 import { faTruckFast,faPenToSquare,faLayerGroup,faCookieBite,faMagicWandSparkles, faUser, faLaptop, faCode,faGrip} from '@fortawesome/free-solid-svg-icons'
 
 const FeatureList = [

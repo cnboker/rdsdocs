@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title"><Translate id="home.digital.app.solution">Digital Signage Application Solutions</Translate></h1>
+        <h1 className="hero__title"><Translate id="home.digital.app.solution">OpenSource Digital Signage Software</Translate></h1>
         <p className="hero__subtitle"><Translate id="home.choice.for.pi.user">Choice for Raspberry Pi Users</Translate></p>
         <div className={styles.buttons}>
           <Link
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Digital Signage Application Solutions">
+      description="OpenSource Digital Signage Software">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
