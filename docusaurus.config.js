@@ -49,7 +49,7 @@ async function createConfig() {
         navbar: {
           title: 'Home',
           logo: {
-            alt: 'RDS Logo',
+            alt: 'Bingo Logo',
             src: 'img/logo.png',
           },
           items: [

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Background
 
-The project developers have extensive experience covering Android, Windows, and WebOS digital signage platforms, and are also Raspberry Pi technology enthusiasts. Customized digital signage terminal players based on past development experience have problems with insufficient flexibility in content display design on Windows and Android platforms, requiring more resources to implement specific functions. Later, I came into contact with the WebOS system, which is an interactive platform based on Node.js. Content display is based on the browser. The browser itself can accommodate a large number of content display features and has a huge design and development ecosystem. It is for this reason that I have invested a period of energy in the development of WebOS. WebOS also has an open source version, WebOS OSE (Open Source Edition).
+Having extensive experience covering Android, Windows, and WebOS digital signage platforms, Customized digital signage player app based on past development experience have problems with insufficient flexibility in content display design on Windows and Android platforms, requiring more effort to implement specific functions. Later, I came into the WebOS system, which is an interactive platform based on Node.js. Content display is based on the browser. The browser itself can accommodate a large number of content display features and has a huge design and development ecosystem. It is for this reason that I have invested a period of energy in the development of WebOS. WebOS also has an open source version, WebOS OSE (Open Source Edition).
 
 In the process of learning and using WebOS OSE, I encountered some unsatisfied needs, such as the video player does not support GPU video decoding, cannot play 4K videos, and 1080p 60fps video files and other fatal problems, all of which need to be solved related to Chromium under Linux question.
 
@@ -14,18 +14,18 @@ Despite these challenges, the power of WebOS OSE is that it is based on the Node
 
 ## Project Blueprint
 
-Based on the above development experience, I started this project 2 years ago. The project is currently being updated and will continue to be updated;
+Based on the above development experience, I started this project 1 years ago. The project is currently being updated and will continue to be updated;
 
 ### Project Objectives
 
-#### Device terminal target
+#### Device OS Objectives
 
 * Support Raspberry Pi board.
 * The device firmware must be small enough, with the firmware size <500M.
 * The firmware system can be quickly compiled and supports secondary development.
 * The device program is developed based on the nodejs platform, which is developed based on chromium.
 
-#### Platform target
+#### Bingo Cloud Objectives
 
 * Safe enough, better security against hacker intrusion, tampering with content and malicious distribution of content.
 * Content distribution platform, content Media files are better managed, are easier to combine, combined content is easier to distribute, and distributed content is easier to monitor.
@@ -38,6 +38,6 @@ Based on the above development experience, I started this project 2 years ago. T
   
 ## Project Progress
 
-## future plan
+## Future Plan
 
 ## Market value of the project and future development direction

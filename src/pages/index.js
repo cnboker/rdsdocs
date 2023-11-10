@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            <Translate id="home.5m.intro">RDS Introduction - 5 minutes</Translate> ⏱️
+            <Translate id="home.5m.intro">Bingo Introduction - 5 minutes</Translate> ⏱️
           </Link>
         </div>
       </div>
