@@ -10,7 +10,7 @@
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
-    "pub": "npm run build && scp  -r ./build/* ubuntu@192.168.0.103:/home/ubuntu/www/home",
+    "pub": "npm run build && scp  -r ./build/* ubuntu@192.168.0.201:/www-dsliz-info",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },

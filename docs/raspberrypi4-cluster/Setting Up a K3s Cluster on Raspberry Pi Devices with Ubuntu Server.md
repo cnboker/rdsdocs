@@ -8,9 +8,9 @@ To set up a K3s cluster with three Raspberry pi 4 devices(work1, work2 and kmast
 
 |  hostname | static ip |
 |---|---|
-|  work1 |  192.168.0.200|
-|  work2|   192.168.0.201|
-|  kmaster |192.168.0.202   |
+|  work1 |  192.168.0.201|
+|  work2|   192.168.0.202|
+|  kmaster |192.168.0.200   |
 
 ## OS Installation
 
@@ -71,7 +71,7 @@ sudo nano /etc/hostname
   Copy the k3s 'kubeconfig' file from the master node to your local mache:
 
   ```base
-  scp ubuntu@192.168.0.202:/etc/rancher/k3s/k3s.yaml ~/.kube/config
+  scp ubuntu@192.168.0.200:/etc/rancher/k3s/k3s.yaml ~/.kube/config
 
   # replace http://localhost to http://masterip in config file
   ```
@@ -81,7 +81,7 @@ sudo nano /etc/hostname
   Use hte same installation script on both worker nodes, replaceing 'your_master_ip' with the actual IP of the kmaster node
 
   ```bash
-  curl -sfL https://get.k3s.io | K3S_URL=https://192.168.0.202:6443 K3S_TOKEN=your-token sh -
+  curl -sfL https://get.k3s.io | K3S_URL=https://192.168.0.200:6443 K3S_TOKEN=your-token sh -
 
   ```
 * Check Node status
