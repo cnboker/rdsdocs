@@ -89,3 +89,17 @@ After the cloning process complete, reboot and check if you are booting from the
 sudo hdparm -t  /dev/mmcblk0
 sudo hdparm -t  /dev/sda
 ```
+
+## k3s high cpu
+
+```bash
+
+sudo apt install linux-modules-extra-raspi && sudo reboot
+```
+
+## check cpu temp
+
+```bash
+
+vcgencmd measure_temp
+```

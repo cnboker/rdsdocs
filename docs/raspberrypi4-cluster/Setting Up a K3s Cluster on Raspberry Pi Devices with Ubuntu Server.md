@@ -72,7 +72,8 @@ sudo nano /etc/hostname
 
   ```base
   scp ubuntu@192.168.0.200:/etc/rancher/k3s/k3s.yaml ~/.kube/config
-
+  #This command sets the file permissions to be readable and writable only by the owner, and no permissions for group or others.
+  chmod 600 ~/.kube/config
   # replace http://localhost to http://masterip in config file
   ```
 
